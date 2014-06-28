@@ -17,6 +17,5 @@ Main-Is:        Djinn.hs
 Hs-Source-Dirs: src
 Other-modules:  Help, HCheck,  LJT, HTypes, LJTFormula, REPL
 
-ghc-options:         -O2 -Wall -optl-Wl
---ghc-options:         -Wall -optl-Wl
+ghc-options:         -O2 -Wall
 ghc-prof-options:    -prof -auto-all
